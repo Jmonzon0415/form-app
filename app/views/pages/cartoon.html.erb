@@ -1,0 +1,17 @@
+<h1>Who is Your Favorite Cartoon Character?</h1>
+
+
+
+<%= form_tag '/submit_cartoon', method: :post do %>
+
+<div> 
+    <%= label_tag :Character %>
+    <%= text_field_tag :input %>
+</div>
+
+<div>
+  <%= submit_tag 'Go!' %>
+</div>
+
+<% end %>
+

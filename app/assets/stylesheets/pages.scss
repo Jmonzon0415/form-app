@@ -1,0 +1,23 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+ 
+ body { 
+        color: #40CCFF; 
+        font-family: 'Gentium Book Basic', serif;
+        background-color: #ffa1d5;
+        text-align: center;
+        border: 10px dotted #40CCFF;
+
+      }
+
+  h1 { font-weight: bold;
+        font-size: 100px;
+
+      }
+
+  h2 { font-size: 75px;}
+
+  h3 { font-size: 40px; }
